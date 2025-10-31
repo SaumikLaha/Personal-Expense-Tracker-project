@@ -52,12 +52,12 @@ Built with **HTML, CSS, and JavaScript**, this project allows users to add, view
 1. Clone the repository  
    ```bash
    git clone https://github.com/SaumikLaha/Personal-Expense-Tracker-project.git
-Open the project folder
+1. Open the project folder
 
 cd Personal-Expense-Tracker-project
 
 
-Open index.html in your browser
+2. Open index.html in your browser
 
 start index.html
 
@@ -66,7 +66,9 @@ start index.html
 ## 👨‍💻 Author
 
 Saumik Laha
+
 📧 Email: saumiklaha@gmail.com
+
 **LinkedIn:** [https://www.linkedin.com/in/saumik-laha-530883381/](https://www.linkedin.com/in/saumik-laha-530883381/)  
 
 ---
