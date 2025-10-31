@@ -11,6 +11,7 @@ Built with **HTML, CSS, and JavaScript**, this project allows users to add, view
 ---
 
 ## 🖼️ Screenshot
+
 ![App Screenshot](screenshot/screenshot.png)
 
 ---
@@ -59,17 +60,15 @@ cd Personal-Expense-Tracker-project
 Open index.html in your browser
 
 start index.html
+
 ---
 
 ## 👨‍💻 Author
 
 Saumik Laha
 📧 Email: saumiklaha@gmail.com
+**LinkedIn:** [https://www.linkedin.com/in/saumik-laha-530883381/](https://www.linkedin.com/in/saumik-laha-530883381/)  
 
-🌐 GitHub: SaumikLaha
-
-🔗 Live Demo: personal-expense-tracker-by-laha.netlify.app
----
 ---
 
 ## ⚖️ License
