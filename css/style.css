@@ -1,0 +1,130 @@
+/* ===== Root Theme Colors ===== */
+:root {
+  --bg-gradient-start: #e7f1ff;      /* light bluish tone */
+  --bg-gradient-end: #f9fcff;        /* soft white tone */
+  --footer-gradient-start: #0d47a1;  /* deep navy blue */
+  --footer-gradient-end: #1976d2;    /* lighter blue */
+  --footer-text-color: #f4faff;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --brand: #0d6efd;
+  --card-radius: 10px;
+}
+
+/* ===== Global Background ===== */
+body.custom-bg {
+  background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #333;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: linear-gradient(90deg, #1976d2, #2196f3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Card Styling ===== */
+.card {
+  border: none;
+  border-radius: var(--card-radius);
+  box-shadow: 0 2px 8px var(--card-shadow);
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== Table Styling ===== */
+.table tbody tr:hover {
+  background-color: #eef5ff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  transition: all 0.25s ease;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* ===== Category Summary Small Cards ===== */
+.category-card {
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(20, 20, 40, 0.05);
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* ===== Main Body Container ===== */
+main.container {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* ===== Footer Section ===== */
+.footer-blue {
+  background: linear-gradient(90deg, var(--footer-gradient-start), var(--footer-gradient-end));
+  color: var(--footer-text-color);
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+  main.container {
+    padding: 1rem;
+  }
+  .card {
+    border-radius: 8px;
+  }
+}
+/* ===== Filter Section Fine-tune ===== */
+#filters .form-control[type="date"] {
+  min-width: 130px;
+}
+
+#filters .col-md-4,
+#filters .col-md-3 {
+  margin-top: 8px;
+}
+
+/* Extra space between date fields and next section (Category) */
+#filter-to {
+  margin-right: 16px;  /* subtle space before Category */
+}
+
+/* For small screens keep good spacing */
+@media (max-width: 768px) {
+  #filter-to {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}
